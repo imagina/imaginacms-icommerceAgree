@@ -5,12 +5,11 @@
 php artisan module:seed Icommerceagree
 ```
 
-## API
+### Init (Parameters = orderID)
+    
+    https://mydomain/api/icommerceagree
 
-    ### Parameters
-        * @param Requests request
-        * @param Requests array "products" - items (object) 
-        * @param Requests array "products" - total (float)
+## Shipping Methods by default (Config File)
 
-    ### Example
-        https://mydomain/api/icommerceagree
+- Agree 		(A convenir)
+- Store Pickup	(Retiro en tienda)
